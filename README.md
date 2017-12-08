@@ -19,6 +19,7 @@ Using git, pull the package to a directory of your choice.  The program package 
 
 	4.1. – Import Libraries and setup the program for execution.
 	* KEY NOTE:  Uncomment the corpus download lines on first run so that all of the data is retrieved for the program.  After the initial run it is advised to comment these out again to ensure the fastest run time.
+
 4.2. – Import the collection of documents (our ticket data) and clean that data for use in our modelling
 	* tokenizing, lemming, stemming, Removal of punctuation, Removal of numbers
 	* Removal of Support Groups not pertinent to the classification
