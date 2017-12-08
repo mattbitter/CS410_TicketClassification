@@ -8,8 +8,8 @@ Using git, pull the package to a directory of your choice.  The program package 
 
 ## Start the program
 1. Run Jupyter Notebook
-	i.  This can be located in the Windows Start menu within the Anaconda folder.
-	i.  This should launch you into your default web browser and open the Jupyter Notebook server interface.
+	*  This can be located in the Windows Start menu within the Anaconda folder.
+	*  This should launch you into your default web browser and open the Jupyter Notebook server interface.
 2. Navigate to location where project is downloaded on your computer.
 3. Within the directory where you pulled the project, launch ‘jn_star_main’ and it will bring up the Jupyter Notebook and the program in its logical blocks.
 	i. N.B. the Repo also contains a regular python file which is a duplicate of the notebook. It is recommended to use the Notebook if it is your first time running the script.
