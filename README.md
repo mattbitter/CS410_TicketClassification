@@ -15,22 +15,23 @@ Using git, pull the package to a directory of your choice.  The program package 
 	* N.B. the Repo also contains a regular python file which is a duplicate of the notebook. It is recommended to use the Notebook if it is your first time running the script.
 
 ## Running the script
-### 4. Within Jupyter, there are logical blocks of code that are grouped for the user's convenience.  The sections should be run in the following order (counting sections from the top):
-	Sec 4.1 – Import Libraries and setup the program for execution.
-		*	KEY NOTE:  Uncomment the corpus download lines on first run so that all of the data is retrieved for the program.  After the initial run it is advised to comment these out again to ensure the fastest run time.
-	Sec 4.2 – Import the collection of documents (our ticket data) and clean that data for use in our modelling
-		* tokenizing, lemming, stemming, Removal of punctuation, Removal of numbers
-		* Removal of Support Groups not pertinent to the classification
-		* Lastly this section creates the training and testing data sets (20% testing set default)
-	Sec 4.3 – Training and fitting the model
-		*  SVM model utilized
-		* Implement TF-IDF weighting with sublinear_tf set true 
-		* To improve performance the Support Group headers are converted to unique numeric values 
-		* Testing and prediction performed here
-	Sec 4.4 – Evaluation – Overall the final F1 score for this model was 85%.  This section includes the following eveluation objects:
-		*  Confusion Matrix (**visualization**), Precision, Recall, Micro, Macro and Weighted F1 Scoring
-	Sec 4.5 – User Testing (your turn to play with it!)
-		* Users can update the ‘str_new’ variable in the section to see how their inputs are classified in the ticketing support system
+#### 4. Within Jupyter, there are logical blocks of code that are grouped for the user's convenience.  The sections should be run in the following order (counting sections from the top):
+
+Sec 4.1 – Import Libraries and setup the program for execution.
+	* KEY NOTE:  Uncomment the corpus download lines on first run so that all of the data is retrieved for the program.  After the initial run it is advised to comment these out again to ensure the fastest run time.
+Sec 4.2 – Import the collection of documents (our ticket data) and clean that data for use in our modelling
+	* tokenizing, lemming, stemming, Removal of punctuation, Removal of numbers
+	* Removal of Support Groups not pertinent to the classification
+	* Lastly this section creates the training and testing data sets (20% testing set default)
+Sec 4.3 – Training and fitting the model
+	*  SVM model utilized
+	* Implement TF-IDF weighting with sublinear_tf set true 
+	* To improve performance the Support Group headers are converted to unique numeric values 
+	* Testing and prediction performed here
+Sec 4.4 – Evaluation – Overall the final F1 score for this model was 85%.  This section includes the following eveluation objects:
+	*  Confusion Matrix (**visualization**), Precision, Recall, Micro, Macro and Weighted F1 Scoring
+Sec 4.5 – User Testing (your turn to play with it!)
+	* Users can update the ‘str_new’ variable in the section to see how their inputs are classified in the ticketing support system
 
 ## Optimizing parameters
 	5. It is important to seelct the optimal C value when using SVM. Accordingly, grid search and stratified k fold cross validation were used to ensure the parameters were correct. Section 5.1 does not need to be run by the user
