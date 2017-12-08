@@ -1,5 +1,5 @@
 ## Synopsis
-This script predicts the correct IT service desk ticket classification based on text data from a Canadian CPG company.
+This script predicts the correct IT service desk ticket classification based on text data from a Canadian CPG company with 85% F1.
 A number of models were tested with TF-IDF unigrams SVM being the best.
 
 ## Install/Setup
