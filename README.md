@@ -17,9 +17,9 @@ Using git, pull the package to a directory of your choice.  The program package 
 ## Running the script
 4. Within Jupyter, there are logical blocks of code that are grouped for the user's convenience.  The sections should be run in the following order (counting sections from the top):
 
-Sec 4.1 – Import Libraries and setup the program for execution.
+4.1 – Import Libraries and setup the program for execution.
 	* KEY NOTE:  Uncomment the corpus download lines on first run so that all of the data is retrieved for the program.  After the initial run it is advised to comment these out again to ensure the fastest run time.
-Sec 4.2 – Import the collection of documents (our ticket data) and clean that data for use in our modelling
+4.2 – Import the collection of documents (our ticket data) and clean that data for use in our modelling
 	* tokenizing, lemming, stemming, Removal of punctuation, Removal of numbers
 	* Removal of Support Groups not pertinent to the classification
 	* Lastly this section creates the training and testing data sets (20% testing set default)
