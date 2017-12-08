@@ -45,7 +45,7 @@ Using git, pull the package to a directory of your choice.  The program package 
 	Section 5.2 - Grid search. It found that C = 3 was the best.
 
 ## Other models
-6. The models shown after Section 5 did not perform as accuractly compared to the simple SVM TF-IDF model:
+6. The models shown after Section 5 either showed slight gains not worth the complexity or did not perform as accuractly compared to the simple SVM TF-IDF model:
 	
 	Sec 6.1 – Decision Trees – only produced a 70% F1 
 	* and Naïve Bayes produced ~50% F1.  Not a top performer for the ticket classification system.
