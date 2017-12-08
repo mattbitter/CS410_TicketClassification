@@ -1,9 +1,13 @@
 # CS410_TicketClassification
-Install/Setup
+## Synopsis
+This script predicts the correct IT service desk ticket classification based on text data from a Canadian CPG company.
+A number of models were tested with TF-IDF unigrams SVM being the best.
+
+##Install/Setup
 Anaconda is a great way to get started with Python, and is recommended to utilize this program.  It contains all the libraries necessary to run the script as well as the Jupyter Notebook feature to execute the code in sections for an optimal experience.
 Using git, pull the package to a directory of your choice.  The program package is located at:  https://github.com/mattbitter/CS410_TicketClassification/
 
-Start the program
+##Start the program
 1. Run Jupyter Notebook
 	i.  This can be located in the Windows Start menu within the Anaconda folder.
 	i.  This should launch you into your default web browser and open the Jupyter Notebook server interface.
@@ -11,7 +15,7 @@ Start the program
 3. Within the directory where you pulled the project, launch ‘jn_star_main’ and it will bring up the Jupyter Notebook and the program in its logical blocks.
 	i. N.B. the Repo also contains a regular python file which is a duplicate of the notebook. It is recommended to use the Notebook if it is your first time running the script.
 
-Running the script
+##Running the script
 4. Within Jupyter, there are logical blocks of code that are grouped for the user's convenience.  The sections should be run in the following order (counting sections from the top):
 	Sec 4.1 – Import Libraries and setup the program for execution.
 		i.	KEY NOTE:  Uncomment the corpus download lines on first run so that all of the data is retrieved for the program.  After the initial run it is advised to comment these out again to ensure the fastest run time.
