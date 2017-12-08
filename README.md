@@ -1,4 +1,3 @@
-# CS410_TicketClassification
 ## Synopsis
 This script predicts the correct IT service desk ticket classification based on text data from a Canadian CPG company.
 A number of models were tested with TF-IDF unigrams SVM being the best.
