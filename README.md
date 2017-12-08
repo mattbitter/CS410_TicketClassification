@@ -38,7 +38,7 @@ Using git, pull the package to a directory of your choice.  The program package 
 	* Users can update the ‘str_new’ variable in the section to see how their inputs are classified in the ticketing support system
 
 ## Optimizing parameters
-5. It is important to seelct the optimal C value when using SVM. Accordingly, grid search and stratified k fold cross validation were used to ensure the parameters were correct. Section 5.1 does not need to be run by the user
+5. It is important to seelct the optimal C value when using SVM. Accordingly, grid search and stratified k fold cross validation were used to ensure the parameters were correct. Section 5.1 and 5.2 do not need to be run by the user
 
 	Section 5.1 - cross validation identified that the true accuracy of our model is around 85% with ~2.5% std deviation.
 	
