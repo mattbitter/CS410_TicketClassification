@@ -13,8 +13,10 @@ N.B. the Repo also contains a regular python file which is a duplicate of the no
 
 Running the script
 1. Within Jupyter, there are logical blocks of code that are grouped for the user's convenience.  The sections should be run in the following order (counting sections from the top):
-  a.	Sec.1 – Import Libraries and setup the program for execution.
+
+	a.	Sec.1 – Import Libraries and setup the program for execution.
 		i.	KEY NOTE:  Uncomment the corpus download lines on first run so that all of the data is retrieved for the program.  After the initial run it is advised to comment these out again to ensure the fastest run time.
+	
 	b.	Sec.2 – Import the collection of documents (our ticket data) and clean that data for use in our modelling
 		i.  tokenizing
 		ii. lemming
