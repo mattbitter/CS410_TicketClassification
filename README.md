@@ -17,27 +17,20 @@ Using git, pull the package to a directory of your choice.  The program package 
 ## Running the script
 4. Within Jupyter, there are logical blocks of code that are grouped for the user's convenience.  The sections should be run in the following order (counting sections from the top):
 	Sec 4.1 – Import Libraries and setup the program for execution.
-		i.	KEY NOTE:  Uncomment the corpus download lines on first run so that all of the data is retrieved for the program.  After the initial run it is advised to comment these out again to ensure the fastest run time.
+		*	KEY NOTE:  Uncomment the corpus download lines on first run so that all of the data is retrieved for the program.  After the initial run it is advised to comment these out again to ensure the fastest run time.
 	Sec 4.2 – Import the collection of documents (our ticket data) and clean that data for use in our modelling
-		i.  tokenizing
-		ii. lemming
-		iii.stemming
-		iv. Removal of punctuation
-		v.  Removal of numbers
-		vi. Removal of Support Groups not pertinent to the classification
-		vii.Lastly this section creates the training and testing data sets (20% testing set default)
+		* tokenizing, lemming, stemming, Removal of punctuation, Removal of numbers
+		* Removal of Support Groups not pertinent to the classification
+		* Lastly this section creates the training and testing data sets (20% testing set default)
 	Sec 4.3 – Training and fitting the model
-		i.  SVN model utilized
-		ii. Implement TF-IDF weighting with sublinear_tf set true 
-		iii.To improve performance the Support Group headers are converted to unique numeric values 
-		iv. Testing and prediction performed here
+		*  SVM model utilized
+		* Implement TF-IDF weighting with sublinear_tf set true 
+		* To improve performance the Support Group headers are converted to unique numeric values 
+		* Testing and prediction performed here
 	Sec 4.4 – Evaluation – Overall the final F1 score for this model was 85%.  This section includes the following eveluation objects:
-		i.  Confusion Matrix
-		ii. Precision
-		iii.Recall
-		iv. F1 Scoring
+		*  Confusion Matrix (**visualization**), Precision, Recall, Micro, Macro and Weighted F1 Scoring
 	Sec 4.5 – User Testing (your turn to play with it!)
-		i.	Users can update the ‘str_new’ variable in the section to see how their inputs are classified in the ticketing support system
+		* Users can update the ‘str_new’ variable in the section to see how their inputs are classified in the ticketing support system
 
 ## Optimizing parameters
 	5. It is important to seelct the optimal C value when using SVM. Accordingly, grid search and stratified k fold cross validation were used to ensure the parameters were correct. Section 5.1 does not need to be run by the user
