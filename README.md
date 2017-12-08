@@ -12,12 +12,12 @@ Start the program
 N.B. the Repo also contains a regular python file which is a duplicate of the notebook. It is recommended to use the Notebook if it is your first time running the script.
 
 Running the script
-1. Within Jupyter, there are logical blocks of code that are grouped for the user's convenience.  The sections should be run in the following order (counting sections from the top):
+4. Within Jupyter, there are logical blocks of code that are grouped for the user's convenience.  The sections should be run in the following order (counting sections from the top):
 
-	a.	Sec.1 – Import Libraries and setup the program for execution.
+	Sec 4.1 – Import Libraries and setup the program for execution.
 		i.	KEY NOTE:  Uncomment the corpus download lines on first run so that all of the data is retrieved for the program.  After the initial run it is advised to comment these out again to ensure the fastest run time.
 	
-	b.	Sec.2 – Import the collection of documents (our ticket data) and clean that data for use in our modelling
+	Sec 4.2 – Import the collection of documents (our ticket data) and clean that data for use in our modelling
 		i.  tokenizing
 		ii. lemming
 		iii.stemming
@@ -25,17 +25,17 @@ Running the script
 		v.  Removal of numbers
 		vi. Removal of Support Groups not pertinent to the classification
 		vii.Lastly this section creates the training and testing data sets (20% testing set default)
-	c.	Sec.3 – Training and fitting the model
+	Sec 4.3 – Training and fitting the model
 		i.  SVN model utilized
 		ii. Implement TF-IDF weighting with sublinear_tf set true 
 		iii.To improve performance the Support Group headers are converted to unique numeric values 
 		iv. Testing and prediction performed here
-	d.	Sec.4 – Evaluation – Overall the final F1 score for this model was 85%.  This section includes the following eveluation objects:
+	Sec 4.4 – Evaluation – Overall the final F1 score for this model was 85%.  This section includes the following eveluation objects:
 		i.  Confusion Matrix
 		ii. Precision
 		iii.Recall
 		iv. F1 Scoring
-	e.	Sec.5 – User Testing (your turn to play with it!)
+	Sec 4.5 – User Testing (your turn to play with it!)
 		i.	Users can update the ‘str_new’ variable in the section to see how their inputs are classified in the ticketing support system
 
 Other fun things to try and cool experiements performed (and you can try them too!):
