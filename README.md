@@ -4,7 +4,7 @@ A number of models were tested with TF-IDF unigrams SVM being the best.
 
 ##Install/Setup
 Anaconda is a great way to get started with Python, and is recommended to utilize this program.  It contains all the libraries necessary to run the script as well as the Jupyter Notebook feature to execute the code in sections for an optimal experience.
-Using git, pull the package to a directory of your choice.  The program package is located at:  https://github.com/mattbitter/CS410_TicketClassification/
+Using git, pull the package to a directory of your choice.  The program package is located [here](https://github.com/mattbitter/CS410_TicketClassification/)
 
 ## Start the program
 1. Run Jupyter Notebook
