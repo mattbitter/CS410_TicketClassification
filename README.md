@@ -55,5 +55,5 @@ Using git, pull the package to a directory of your choice.  The program package 
 	* NMF appeared to perform better v.s. LDA because NMF is able to leverage TF-IDF while LDA only uses TF. 
 	* In all the end resulted in a 1% increase in cross validated F1 so it is arguably not worth the complexity.
 	
-	Section 6.3 – Used individual users names as one-hot features to add into the SVM model using a similar approach to Section 6.2. However, it shows no changes in accuracy score.
+	Section 6.3 – Used individual users names as one-hot features to add into the SVM model using a similar approach to. However, it shows no changes in accuracy score.
 	* You will need to update section 3 under the ‘#fit’ comment section to change the ‘probability’ variable to ‘True’.
