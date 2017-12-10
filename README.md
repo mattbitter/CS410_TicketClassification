@@ -47,13 +47,13 @@ Using git, pull the package to a directory of your choice.  The program package 
 ## Other models
 6. The models shown after Section 5 either showed slight gains not worth the complexity or did not perform as accuractly compared to the simple SVM TF-IDF model:
 	
-	Sec 6.1 – Decision Trees – only produced a 70% F1 
+	Section 6.1 – Decision Trees – only produced a 70% F1 
 	* and Naïve Bayes produced ~50% F1.  Not a top performer for the ticket classification system.
 	
-	Sec 6.2 – LDA and NMF approach (You will need to update section 4.3 under the ‘#fit’ comment section to change the ‘probability’ variable to ‘True’.)
+	Section 6.2 – LDA and NMF approach (You will need to update section 4.3 under the ‘#fit’ comment section to change the ‘probability’ variable to ‘True’.)
 	* utilized LDA and NMF features to form a dense matrix of topic probabilities based off of the training TF-IDF values. 15 Topics were chosen as it showed the best results. This LDA and NMF dense matrix was merged with probabilities of the classes predicted from the SVM model and fed into a second SVM model.
 	* NMF appeared to perform better v.s. LDA because NMF is able to leverage TF-IDF while LDA only uses TF. 
 	* In all the end resulted in a 1% increase in cross validated F1 so it is arguably not worth the complexity.
 	
-	Sec 6.3 – Used individual users names as one-hot features to add into the SVM model using a similar approach to Section 6.2. However, it shows no changes in accuracy score.
+	Section 6.3 – Used individual users names as one-hot features to add into the SVM model using a similar approach to Section 6.2. However, it shows no changes in accuracy score.
 	* You will need to update section 3 under the ‘#fit’ comment section to change the ‘probability’ variable to ‘True’.
